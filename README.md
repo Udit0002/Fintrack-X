@@ -1,6 +1,6 @@
 <!-- Project Banner -->
 <p align="center">
-  <img src="public/fintrackx-banner.png" alt="Fintrack X" width="100%" />
+  <img src="public/image.png" alt="Fintrack X" width="100%" />
 </p>
 
 <h1 align="center">💰 Fintrack X</h1>
