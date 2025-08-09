@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Project Banner -->
+<p align="center">
+  <img src="public/fintrackx-banner.png" alt="Fintrack X" width="100%" />
+</p>
 
-## Getting Started
+<h1 align="center">💰 Fintrack X</h1>
+<p align="center">
+  <em>Smart Personal Finance Management – Track, Save & Grow</em>
+</p>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📌 About the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Fintrack X** is a modern **personal finance tracker** that helps you **monitor expenses, automate savings, and gain insights** into your spending habits.  
+Built with **Next.js, TailwindCSS, and Clerk Auth**, it offers AI-powered budgeting tools, multi-currency support, and smart receipt scanning.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📊 **Interactive Dashboard** – Visualize income & expenses with charts  
+- 📷 **Smart Receipt Scanner** – OCR-based expense logging  
+- 💱 **Multi-Currency Support** – Real-time FX conversions  
+- 🤖 **AI-powered Insights** – Smart recommendations to save more  
+- 🔔 **Budget Alerts** – Stay on track with your spending goals  
+- 🌙 **Dark Mode** – Eye-friendly design  
+- 📱 **Mobile-Responsive** – Works on all devices  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠 Tech Stack
+
+- **Frontend:** ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)  
+- **Backend:** ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)  
+- **Auth:** ![Clerk](https://img.shields.io/badge/Clerk-3B82F6?style=for-the-badge&logo=clerk&logoColor=white)  
+- **Database:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)  
+- **AI/OCR:** ![Inngest](https://img.shields.io/badge/Inngest-FF6B6B?style=for-the-badge)  
