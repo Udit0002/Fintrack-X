@@ -24,11 +24,7 @@ export default function RootLayout({ children }) {
           <Toaster richColors />
           
           <footer className="relative overflow-hidden">
-            {/* Gradient Background */}
             <div className="absolute inset-0 bg-gradient-to-br from-cyan-300 to-blue-800 opacity-95" />
-
-            {/* Overlay Pattern (optional, can remove if you want cleaner look) */}
-            {/* <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-cover bg-center" /> */}
 
             <div className="relative container mx-auto px-6 py-12 text-white">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
