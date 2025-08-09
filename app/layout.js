@@ -1,6 +1,8 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Header from "../components/header";   // if file is components/header.(js|jsx|tsx)
+import Header from "../components/header";  
+import Link from "next/link";
+import Image from "next/image";
 
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "sonner";
@@ -34,7 +36,16 @@ export default function RootLayout({ children }) {
                 {/* Column 1: Branding */}
                 <div className="col-span-2 md:col-span-1">
                   <a href="/" className="flex items-center space-x-2">
-                    <img src="/image.png" alt="Fintrack X Logo" className="h-9 w-auto drop-shadow-md" />
+                    <Link href="/" className="flex items-center space-x-2">
+                      <Image
+                        src="/image.png"
+                        alt="Fintrack X Logo"
+                        width={120}
+                        height={32}
+                        className="h-9 w-auto drop-shadow-md"
+                        priority
+                      />
+                    </Link>
                   </a>
                   <p className="mt-4 text-sm opacity-90">
                     Your finances on autopilot. Gain clarity and control effortlessly.
