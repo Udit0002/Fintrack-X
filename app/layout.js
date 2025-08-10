@@ -31,7 +31,6 @@ export default function RootLayout({ children }) {
                 
                 {/* Column 1: Branding */}
                 <div className="col-span-2 md:col-span-1">
-                  <a href="/" className="flex items-center space-x-2">
                     <Link href="/" className="flex items-center space-x-2">
                       <Image
                         src="/image.png"
@@ -42,7 +41,6 @@ export default function RootLayout({ children }) {
                         priority
                       />
                     </Link>
-                  </a>
                   <p className="mt-4 text-sm opacity-90">
                     Your finances on autopilot. Gain clarity and control effortlessly.
                   </p>
