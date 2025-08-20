@@ -8,7 +8,11 @@
   <em>Smart Personal Finance Management – Track, Save & Grow</em>
 </p>
 
-
+<p align="center">
+  <a href="https://fintrack-x.uditchaudhary.in" target="_blank">
+    <img src="https://img.shields.io/badge/🚀 Live_Demo-F43F5E?style=for-the-badge&logo=vercel&logoColor=white" alt="Fintrack X Live"/>
+  </a>
+</p>
 
 ---
 
